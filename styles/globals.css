@@ -8,7 +8,20 @@
 }
 
 .hero {
-  background-image: url('../public/hero.jpeg');
+  background-image: url("../public/hero.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+
+.embla__slide {
+  position: relative;
+  flex: 0 0 50%;
+  margin-right: 20px;
 }
