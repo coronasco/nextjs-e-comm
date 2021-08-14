@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Mobile button lines */
+.m-btn-line {
+  @apply w-full h-[2px] bg-gray-600 rounded-full cursor-pointer;
+}
