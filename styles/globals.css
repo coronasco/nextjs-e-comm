@@ -6,3 +6,9 @@
 .m-btn-line {
   @apply w-full h-[2px] bg-gray-600 rounded-full cursor-pointer;
 }
+
+.hero {
+  background-image: url('../public/hero.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -32,7 +32,7 @@ function Header() {
         </div>
       </div>
       <div className="px-4 md:px-0 container mx-auto">
-        <div className="flex items-center justify-between py-4">
+        <div className="grid grid-cols-3 flex items-center py-4">
           <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +50,7 @@ function Header() {
             </svg>
             <span className="font-bold ml-2">FlyShop</span>
           </div>
-          <div className="hidden md:flex gap-5 text-gray-600">
+          <div className="hidden md:flex gap-5 text-gray-600 justify-center">
             <Link href="/">
               <a>Home</a>
             </Link>
@@ -64,7 +64,7 @@ function Header() {
               <a>Contact</a>
             </Link>
           </div>
-          <div className="flex gap-3 text-gray-500">
+          <div className="flex gap-3 text-gray-500 justify-center md:justify-end">
             <div className="hover:text-gray-900 transition-all cursor-pointer">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -114,31 +114,33 @@ function Header() {
               </svg>
             </div>
           </div>
-          <div
-            className="h-[16px] w-5 flex flex-col justify-between md:hidden"
-            onClick={handleClick}
-          >
+          <div className="flex justify-end">
             <div
-              className={`${
-                active
-                  ? "rotate-45 translate-y-[7px] duration-500 transition-all"
-                  : ""
-              } m-btn-line`}
-            ></div>
-            <div
-              className={`${
-                active
-                  ? "transformt translate-x-[-10px] duration-500 opacity-0 transition-all"
-                  : ""
-              } m-btn-line`}
-            ></div>
-            <div
-              className={`${
-                active
-                  ? "-rotate-45 translate-y-[-7px] duration-500 transition-all"
-                  : ""
-              } m-btn-line`}
-            ></div>
+              className="h-[16px] w-5 flex flex-col justify-between md:hidden"
+              onClick={handleClick}
+            >
+              <div
+                className={`${
+                  active
+                    ? "rotate-45 translate-y-[7px] duration-500 transition-all"
+                    : ""
+                } m-btn-line`}
+              ></div>
+              <div
+                className={`${
+                  active
+                    ? "transformt translate-x-[-10px] duration-500 opacity-0 transition-all"
+                    : ""
+                } m-btn-line`}
+              ></div>
+              <div
+                className={`${
+                  active
+                    ? "-rotate-45 translate-y-[-7px] duration-500 transition-all"
+                    : ""
+                } m-btn-line`}
+              ></div>
+            </div>
           </div>
         </div>
       </div>
