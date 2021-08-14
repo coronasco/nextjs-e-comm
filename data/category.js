@@ -7,7 +7,7 @@ export const categories = [
   },
   {
     key: "man",
-    subtitle: "Winter Collection",
+    subtitle: "Gentleman Collection",
     image: "https://wallpaperaccess.com/full/1841157.jpg"
   },
   {

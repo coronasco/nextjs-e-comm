@@ -3,6 +3,7 @@ import Image from "next/image";
 import Header from "./../components/header";
 import Hero from "./../components/hero";
 import Categories from "../components/categories";
+import Featured from '../components/featured'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Header />
         <Hero />
         <Categories />
+        <Featured />
       </main>
     </div>
   );
