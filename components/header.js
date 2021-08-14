@@ -17,8 +17,8 @@ function Header() {
             <span className="font-bold">$100.00</span>
           </p>
           <div className="flex gap-5">
-            <Link href="/">Help & FAQs</Link>
-            <Link href="/">My Account</Link>
+            <Link href="/help">Help & FAQs</Link>
+            <Link href="/account">My Account</Link>
             <select defaultValue="language" className="bg-gray-900">
               <option name="english">En</option>
               <option name="romana">Ro</option>
@@ -54,13 +54,13 @@ function Header() {
             <Link href="/">
               <a>Home</a>
             </Link>
-            <Link href="/">
+            <Link href="/shop">
               <a>Shop</a>
             </Link>
-            <Link href="/">
+            <Link href="/about">
               <a>About</a>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <a>Contact</a>
             </Link>
           </div>
@@ -120,19 +120,23 @@ function Header() {
           >
             <div
               className={`${
-                active ? "rotate-45 translate-y-[7px] transition-all" : ""
-              } m-btn-line`}
-            ></div>
-            <div
-              className={`${
                 active
-                  ? "transformt translate-x-[-10px] opacity-0 transition-all"
+                  ? "rotate-45 translate-y-[7px] duration-500 transition-all"
                   : ""
               } m-btn-line`}
             ></div>
             <div
               className={`${
-                active ? "-rotate-45 translate-y-[-7px] transition-all" : ""
+                active
+                  ? "transformt translate-x-[-10px] duration-500 opacity-0 transition-all"
+                  : ""
+              } m-btn-line`}
+            ></div>
+            <div
+              className={`${
+                active
+                  ? "-rotate-45 translate-y-[-7px] duration-500 transition-all"
+                  : ""
               } m-btn-line`}
             ></div>
           </div>
@@ -144,20 +148,20 @@ function Header() {
             <Link href="/">
               <a>Home</a>
             </Link>
-            <Link href="/">
+            <Link href="/shop">
               <a>Shop</a>
             </Link>
-            <Link href="/">
+            <Link href="/about">
               <a>About</a>
             </Link>
-            <Link href="/">
+            <Link href="/contact">
               <a>Contact</a>
             </Link>
           </div>
           <div className="mt-10">
             <div className="flex flex-col gap-3">
-              <Link href="/">Help & FAQs</Link>
-              <Link href="/">My Account</Link>
+              <Link href="/help">Help & FAQs</Link>
+              <Link href="/account">My Account</Link>
               <select defaultValue="language" className="bg-gray-200">
                 <option name="english">En</option>
                 <option name="romana">Ro</option>
