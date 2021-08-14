@@ -9,7 +9,7 @@ function Header() {
   };
 
   return (
-    <nav className="bg-white fixed w-full z-50">
+    <nav className="bg-white fixed w-full z-50 border-b border-gray-200 ">
       <div className="hidden md:flex bg-gray-900 text-gray-100 py-2 text-sm">
         <div className="px-4 md:px-0 container mx-auto flex justify-between">
           <p>
@@ -32,7 +32,7 @@ function Header() {
         </div>
       </div>
       <div className="px-4 md:px-0 container mx-auto">
-        <div className="border-b border-gray-200 flex items-center justify-between py-4">
+        <div className="flex items-center justify-between py-4">
           <div className="flex items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
