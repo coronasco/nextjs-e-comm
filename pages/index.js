@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from "./../components/header";
 import Hero from "./../components/hero";
+import Categories from "../components/categories";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main>
         <Header />
         <Hero />
+        <Categories />
       </main>
     </div>
   );
