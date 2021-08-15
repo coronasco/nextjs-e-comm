@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import Header from "./../components/header";
 import Hero from "./../components/hero";
 import Categories from "../components/categories";
-import Featured from '../components/featured'
+import Featured from "../components/featured";
 
 export default function Home() {
   return (
