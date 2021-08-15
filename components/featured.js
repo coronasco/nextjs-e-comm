@@ -28,11 +28,11 @@ function Featured(props) {
   }, [embla]);
 
   return (
-    <div className="mt-10">
-      <div>
-        <button>Featured</button>
-        <button>On Sale</button>
-        <button>Top Rated</button>
+    <div className="mt-[50px] lg:mt-[100px] px-4 md:px-0 container mx-auto">
+      <div className="flex justify-center mb-10 border-b pb-5">
+        <button className="cat-btn">Featured</button>
+        <button className="cat-btn">On Sale</button>
+        <button className="cat-btn">Top Rated</button>
       </div>
       <div className="embla">
         <div className="embla__viewport" ref={emblaRef}>
@@ -49,12 +49,40 @@ function Featured(props) {
             })}
           </div>
         </div>
-        <button class="embla__prev" onClick={scrollPrev}>
-          Prev
-        </button>
-        <button class="embla__next" onClick={scrollNext}>
-          Next
-        </button>
+        <div className="flex justify-between mt-3 mb-10">
+          <button class="embla__prev" onClick={scrollPrev}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M10 19l-7-7m0 0l7-7m-7 7h18"
+              />
+            </svg>
+          </button>
+          <button class="embla__next" onClick={scrollNext}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-4 w-4"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M14 5l7 7m0 0l-7 7m7-7H3"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   );

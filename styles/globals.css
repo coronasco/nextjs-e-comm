@@ -25,3 +25,7 @@
   flex: 0 0 50%;
   margin-right: 20px;
 }
+
+.cat-btn {
+  @apply text-xl text-gray-700 px-5;
+}
