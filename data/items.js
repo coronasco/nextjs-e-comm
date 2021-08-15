@@ -72,7 +72,7 @@ export const items = [
     },
     reate: {
       featured: true,
-      sale: true,
+      sale: false,
       rated: true
     },
     img:
@@ -92,7 +92,7 @@ export const items = [
     },
     reate: {
       featured: true,
-      sale: true,
+      sale: false,
       rated: true
     },
     img:
@@ -106,6 +106,7 @@ export const items = [
       collection: "winter"
     },
     price: "$480.00",
+    salePrice: "$690.00",
     stock: {
       available: true,
       quant: 2
