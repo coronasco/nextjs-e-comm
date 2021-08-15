@@ -16,15 +16,21 @@ function Header() {
             Free shipping for standard order over{" "}
             <span className="font-bold">$100.00</span>
           </p>
-          <div className="flex gap-5">
+          <div className="flex space-x-5">
             <Link href="/help">Help & FAQs</Link>
             <Link href="/account">My Account</Link>
-            <select defaultValue="language" className="bg-gray-900">
+            <select
+              defaultValue="language"
+              className="bg-gray-900 border-none rounded-none focus:outline-none"
+            >
               <option name="english">En</option>
               <option name="romana">Ro</option>
               <option name="italiano">It</option>
             </select>
-            <select defaultValue="currency" className="bg-gray-900">
+            <select
+              defaultValue="currency"
+              className="bg-gray-900 border-none rounded-none focus:outline-none"
+            >
               <option name="euro">€</option>
               <option name="dollar">$</option>
             </select>
