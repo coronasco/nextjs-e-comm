@@ -16,3 +16,7 @@
 .cat-btn {
   @apply text-xl text-gray-700 px-5;
 }
+
+.footer-link {
+  @apply text-sm text-gray-600 mb-2 cursor-pointer;
+}

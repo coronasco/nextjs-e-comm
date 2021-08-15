@@ -5,6 +5,7 @@ import Categories from "../components/categories";
 import Featured from "../components/featured";
 import DealOfTheDay from "../components/dayDeal";
 import Info from "../components/info";
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
         <DealOfTheDay />
         <Info />
       </main>
+
+      <Footer />
     </div>
   );
 }
