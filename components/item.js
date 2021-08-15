@@ -6,7 +6,7 @@ function Item({ title, price, image }) {
           <img
             src={image}
             alt="image"
-            className="w-full h-full object-cover h-[300px] transition-all group-hover:scale-105 duration-300"
+            className="w-full object-cover h-[300px] transition-all group-hover:scale-105 duration-300"
           />
           <div className="absolute top-3 left-3 text-white p-2 bg-gray-900 rounded-full transform translate-y-3 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 cursor-pointer hover:scale-110 hover:bg-gray-100 hover:text-gray-900">
             <svg
