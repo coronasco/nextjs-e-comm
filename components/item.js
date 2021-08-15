@@ -43,7 +43,7 @@ function Item({ title, price, image }) {
           </div>
         </div>
       </div>
-      <div className="relative z-50 text-gray-900 mt-5 p-4">
+      <div className="text-gray-900 mt-5 p-4">
         <div className="text-lg">{title}</div>
         <div className="text-gray-700 font-bold text-sm">{price}</div>
       </div>
