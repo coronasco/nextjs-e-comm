@@ -4,6 +4,7 @@ import Hero from "./../components/hero";
 import Categories from "../components/categories";
 import Featured from "../components/featured";
 import DealOfTheDay from "../components/dayDeal";
+import Info from "../components/info";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Categories />
         <Featured />
         <DealOfTheDay />
+        <Info />
       </main>
     </div>
   );

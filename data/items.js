@@ -95,6 +95,7 @@ export const items = [
       sale: false,
       rated: true
     },
+    bestChoice: true,
     img:
       "http://www.wa11papers.com/assets/previews/model-man-black-and-white-portrait-wallpaper-4376-preview-283a44fa.jpg"
   },
