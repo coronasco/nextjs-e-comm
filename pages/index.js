@@ -3,6 +3,7 @@ import Header from "./../components/header";
 import Hero from "./../components/hero";
 import Categories from "../components/categories";
 import Featured from "../components/featured";
+import DealOfTheDay from "../components/dayDeal";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Hero />
         <Categories />
         <Featured />
+        <DealOfTheDay />
       </main>
     </div>
   );
