@@ -73,7 +73,7 @@ export const items = [
     reate: {
       featured: true,
       sale: false,
-      rated: true
+      rated: false
     },
     img:
       "http://www.wa11papers.com/assets/previews/model-person-man-black-and-white-fashion-adult-wallpaper-11790-preview-1679160f.jpg"
@@ -93,7 +93,7 @@ export const items = [
     reate: {
       featured: true,
       sale: false,
-      rated: true
+      rated: false
     },
     bestChoice: true,
     img:

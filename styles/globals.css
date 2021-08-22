@@ -14,7 +14,11 @@
 }
 
 .cat-btn {
-  @apply text-xl text-gray-700 px-5;
+  @apply text-xl text-gray-700 px-5 cursor-pointer;
+}
+
+.active-btn {
+  @apply font-bold text-black;
 }
 
 .footer-link {
